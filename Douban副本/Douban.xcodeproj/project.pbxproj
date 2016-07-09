@@ -99,6 +99,7 @@
 		D697C3DF1D169861001FFBD0 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = D697C3DE1D169861001FFBD0 /* back.png */; };
 		D6A1241F1D18CD0A006DE779 /* ArchiverHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A1241E1D18CD0A006DE779 /* ArchiverHandle.m */; };
 		D6A124221D18D2D9006DE779 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A124211D18D2D9006DE779 /* DBManager.m */; };
+		D6BB371E1D1FC2AB003AED35 /* MBProgressHUD+GifHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BB371D1D1FC2AB003AED35 /* MBProgressHUD+GifHUD.m */; };
 		D6BF53571D198600006AE070 /* DBBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BF53561D198600006AE070 /* DBBManager.m */; };
 		D6BF535B1D198808006AE070 /* ListMyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BF53591D198808006AE070 /* ListMyTableViewController.m */; };
 		D6BF535C1D198808006AE070 /* ListMyTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6BF535A1D198808006AE070 /* ListMyTableViewController.xib */; };
@@ -150,7 +151,6 @@
 		D6F715DF1D1589C500BE2A59 /* Cinema.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F7154E1D1589C500BE2A59 /* Cinema.m */; };
 		D6F715E01D1589C500BE2A59 /* CinemaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F715511D1589C500BE2A59 /* CinemaCell.m */; };
 		D6F715E11D1589C500BE2A59 /* CinemaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6F715521D1589C500BE2A59 /* CinemaCell.xib */; };
-		D6F715E21D1589C500BE2A59 /* MBProgressHUD+GifHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F715561D1589C500BE2A59 /* MBProgressHUD+GifHUD.m */; };
 		D6F715E31D1589C500BE2A59 /* MovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F715581D1589C500BE2A59 /* MovieDetailViewController.m */; };
 		D6F715E41D1589C500BE2A59 /* MovieDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6F715591D1589C500BE2A59 /* MovieDetailViewController.xib */; };
 		D6F715E51D1589C500BE2A59 /* MovieListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F7155B1D1589C500BE2A59 /* MovieListViewController.m */; };
@@ -278,6 +278,8 @@
 		D6A1241E1D18CD0A006DE779 /* ArchiverHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArchiverHandle.m; path = ../Controller/ArchiverHandle.m; sourceTree = "<group>"; };
 		D6A124201D18D2D9006DE779 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
 		D6A124211D18D2D9006DE779 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		D6BB371C1D1FC2AB003AED35 /* MBProgressHUD+GifHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+GifHUD.h"; sourceTree = "<group>"; };
+		D6BB371D1D1FC2AB003AED35 /* MBProgressHUD+GifHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+GifHUD.m"; sourceTree = "<group>"; };
 		D6BF53551D198600006AE070 /* DBBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBBManager.h; sourceTree = "<group>"; };
 		D6BF53561D198600006AE070 /* DBBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBBManager.m; sourceTree = "<group>"; };
 		D6BF53581D198808006AE070 /* ListMyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListMyTableViewController.h; sourceTree = "<group>"; };
@@ -349,8 +351,6 @@
 		D6F715501D1589C500BE2A59 /* CinemaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinemaCell.h; sourceTree = "<group>"; };
 		D6F715511D1589C500BE2A59 /* CinemaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinemaCell.m; sourceTree = "<group>"; };
 		D6F715521D1589C500BE2A59 /* CinemaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CinemaCell.xib; sourceTree = "<group>"; };
-		D6F715551D1589C500BE2A59 /* MBProgressHUD+GifHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+GifHUD.h"; sourceTree = "<group>"; };
-		D6F715561D1589C500BE2A59 /* MBProgressHUD+GifHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+GifHUD.m"; sourceTree = "<group>"; };
 		D6F715571D1589C500BE2A59 /* MovieDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetailViewController.h; sourceTree = "<group>"; };
 		D6F715581D1589C500BE2A59 /* MovieDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetailViewController.m; sourceTree = "<group>"; };
 		D6F715591D1589C500BE2A59 /* MovieDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieDetailViewController.xib; sourceTree = "<group>"; };
@@ -865,8 +865,8 @@
 		D6F715541D1589C500BE2A59 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D6F715551D1589C500BE2A59 /* MBProgressHUD+GifHUD.h */,
-				D6F715561D1589C500BE2A59 /* MBProgressHUD+GifHUD.m */,
+				D6BB371C1D1FC2AB003AED35 /* MBProgressHUD+GifHUD.h */,
+				D6BB371D1D1FC2AB003AED35 /* MBProgressHUD+GifHUD.m */,
 				D6F715571D1589C500BE2A59 /* MovieDetailViewController.h */,
 				D6F715581D1589C500BE2A59 /* MovieDetailViewController.m */,
 				D6F715591D1589C500BE2A59 /* MovieDetailViewController.xib */,
@@ -1247,6 +1247,7 @@
 				D6F7132D1D15874C00BE2A59 /* ViewController.m in Sources */,
 				D6F715E71D1589C500BE2A59 /* MovieCell.m in Sources */,
 				D697C3341D166AE5001FFBD0 /* UserCell.m in Sources */,
+				D6BB371E1D1FC2AB003AED35 /* MBProgressHUD+GifHUD.m in Sources */,
 				D62F11041D193C7400FC68DC /* ListTableViewController.m in Sources */,
 				D6F715EA1D1589C500BE2A59 /* UserViewController.m in Sources */,
 				D6BF53571D198600006AE070 /* DBBManager.m in Sources */,
@@ -1256,7 +1257,6 @@
 				D6F7156F1D1589C500BE2A59 /* UIImage+ImageByColor.m in Sources */,
 				D6F715DC1D1589C500BE2A59 /* CinemaDetailViewController.m in Sources */,
 				D6F715E31D1589C500BE2A59 /* MovieDetailViewController.m in Sources */,
-				D6F715E21D1589C500BE2A59 /* MBProgressHUD+GifHUD.m in Sources */,
 				D6F715701D1589C500BE2A59 /* ImageDownLoader.m in Sources */,
 				D6F715E01D1589C500BE2A59 /* CinemaCell.m in Sources */,
 				D6F715711D1589C500BE2A59 /* NetWorkRequestManager.m in Sources */,
